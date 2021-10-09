@@ -11,5 +11,7 @@ namespace MarsRover.ViewModels
         public int CoordinateX { get; set; }
         public int CoordinateY { get; set; }
         public string Rotation { get; set; }
+        public string[] MovementCommands { get; set; }
+
     }
 }

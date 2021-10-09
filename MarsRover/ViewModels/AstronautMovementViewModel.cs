@@ -9,7 +9,6 @@ namespace MarsRover.ViewModels
     public class AstronautMovementViewModel
     {
         public MapSizeViewModel MapSize { get; set; }
-        public AstronautLocationViewModel AstronautLocation { get; set; }
-        public string[] MovementCommands { get; set; }
+        public List<AstronautLocationViewModel> AstronautLocation { get; set; } = new List<AstronautLocationViewModel>();
     }
 }
